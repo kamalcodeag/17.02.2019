@@ -1,0 +1,15 @@
+.container-fluid {
+    width: 100%;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.clear {
+    clear: both;
+}

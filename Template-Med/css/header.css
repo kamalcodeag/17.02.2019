@@ -1,0 +1,140 @@
+#header {
+    margin-top: 1%;
+}
+#header-top {
+    min-height: 30px;
+    border-bottom: 1px solid #ececee;
+}
+#header-top .col-9 span {
+    font-size: 14px;
+    position: absolute;
+}
+#header-top .col-3 span {
+    font-size: 14px;
+    float: left;
+    color: #49c0d0;
+}
+#header-top .col-3 .account {
+    position: absolute;;
+    right: 18%;
+}
+#header-top .col-3 .account::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    position: relative;
+    bottom: 7px;
+    left: 17px;
+    background-color: #ececee;
+}
+#header-top .col-3 .account .sign-in {
+    position: relative;
+    right: 13%;
+}
+#header-top .col-3 .icons {
+    position: absolute;
+    right: 0;
+}
+#header-top .col-3 .icons span {
+    letter-spacing: 15px;
+}
+
+#header-middle {
+    margin-top: 3%;
+    min-height: 68px;
+}
+#header-middle .col-3 img {
+    width: 55%;
+}
+#header-middle .icon-info-1 {
+    float: left;
+    position: absolute;
+    right: 47%;
+}
+#header-middle .icon-info-1::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 40px;
+    position: relative;
+    bottom: 2px;
+    left: 30px;
+    background-color: #ececee;
+}
+#header-middle .icon-info-1 i{
+    float: left;
+    font-size: 1.5em;
+    color: #49c0d0;
+    margin-right: 20px;
+}
+#header-middle .icon-info-1 span {
+    float: left;
+    font-size: 0.7em;
+    position: relative;
+    bottom: 20px;
+}
+#header-middle .icon-info-2 {
+    float: left;
+    position: absolute;
+    right: 20%;
+}
+#header-middle .icon-info-2::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 40px;
+    position: relative;
+    bottom: 2px;
+    left: 30px;
+    background-color: #ececee;
+}
+#header-middle .icon-info-2 i {
+    float: left;
+    font-size: 1.5em;
+    color: #49c0d0;
+    margin-right: 20px;
+    transform: rotateY(180deg);
+}
+#header-middle .icon-info-2 span {
+    float: left;
+    font-size: 0.7em;
+    position: relative;
+    bottom: 20px;
+}
+#header-middle .icon-info-3 {
+    float: left;
+    position: absolute;
+    right: 0; 
+}
+#header-middle .icon-info-3 i {
+    float: left;
+    font-size: 1.5em;
+    color: #49c0d0;
+    margin-right: 20px;
+}
+#header-middle .icon-info-3 span {
+    float: left;
+    font-size: 0.7em;
+    position: relative;
+    bottom: 20px;
+}
+#header .full-line {
+    width: 100%;
+    height: 1px;
+    background-color: #ececee;
+}
+
+#navbar {
+    min-height: 20px;
+}
+#navbar ul {
+    padding: 0px;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    padding-right: 20px;
+}

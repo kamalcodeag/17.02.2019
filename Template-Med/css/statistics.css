@@ -1,0 +1,64 @@
+#statistics .container-fluid {
+    height: 300px;
+    background-image: url(http://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/public/field/field_image_main/hospital_0.jpg?itok=BDT0QWrG);
+    background-size: cover;
+}
+#statistics .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#statistics i {
+    display: block;
+    font-size: 2.5em;
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    color: white;
+}
+#statistics .stat-number {
+    display: block;
+    font-size: 2.5em;
+    font-weight: 900;
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    color: #b8e7f5;
+}
+#statistics .stat-text {
+    display: block;
+    font-size: 1em;
+    position: absolute;
+    bottom: -75%;
+    left: 0%;
+    color: white;
+}
+#statistics .row:nth-child(2) i {
+    left: 33%;
+}
+#statistics .row:nth-child(2) .stat-number {
+    left: 32%;
+}
+#statistics .row:nth-child(2) .stat-text {
+    left: 31%;
+}
+#statistics .row:nth-child(3) i {
+    left: 60%;
+}
+#statistics .row:nth-child(3) .stat-number {
+    left: 58%;
+}
+#statistics .row:nth-child(3) .stat-text {
+    left: 54%;
+}
+#statistics .row:nth-child(4) i {
+    left: 88%;
+}
+#statistics .row:nth-child(4) .stat-number {
+    left: 85%;
+}
+#statistics .row:nth-child(4) .stat-text {
+    left: 83%;
+}

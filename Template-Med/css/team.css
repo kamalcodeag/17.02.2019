@@ -1,0 +1,140 @@
+#team #meet {
+    min-height: 250px;
+    padding: 70px 0;
+}
+#team #meet .meet-heading {
+    display: block;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+}
+#team #meet .meet-heading::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: -50%;
+    right: 48%;
+    width: 52px;
+    height: 2px;
+    background-color: #49c0d0;
+}
+#meet .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    padding: 80px 0 30px 0;
+}
+#meet .grid-box {
+    position: relative;
+}
+#meet .grid-box:hover .overlay {
+    opacity: 1;
+}
+#meet .grid-box:hover .icons span i {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+#meet .grid-box .overlay {
+    position: absolute;
+    width: 100%;
+    height: 199px;
+    background-color: rgba(236, 230, 230, 0.9);
+    transition: all .3s linear;
+    opacity: 0;
+}
+#meet .grid-box .icons {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+#meet .grid-box .icons span i {
+    padding-right: 18px;
+    color: #49c0d0;
+    transform: rotateY(180deg);
+    transition: all .3s linear;
+    transition-delay: .1s;
+    opacity: 0;
+}
+#meet img {
+    width: 100%;
+}
+#meet .dr-name {
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+#meet .dr-pro {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+}
+#wps {
+    height: 500px;
+    background-image: url(https://www.cshealthcare.co.uk/sites/default/files/Dr%201500x600.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+#wps .container-fluid {
+    height: 500px;
+    padding-top: 70px;
+    box-sizing: border-box;
+    background-color:rgba(34, 33, 33, 0.5);
+}
+#wps .wps-main {
+    width: 55%;
+    margin: 0 auto;
+}
+#wps .wps-head {
+    padding-bottom: 30px;
+}
+#wps .wps-heading {
+    display: block;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#wps .wps-heading::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: -50%;
+    right: 48%;
+    width: 52px;
+    height: 2px;
+    background-color: #49c0d0;
+}
+#wps .wps-pic {
+    padding-bottom: 30px;
+    text-align: center;
+}
+#wps img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    right: 13px;
+}
+#wps .wps-say {
+    padding: 30px 0;
+}
+#wps .wps-text {
+    display: block;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+#wps .wps-name {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}

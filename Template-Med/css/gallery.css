@@ -1,0 +1,134 @@
+#gallery {
+    /* min-height: 900px; */
+}
+#gallery .col-12 {
+    padding-top: 70px;
+}
+#gallery .g-heading {
+    display: block;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+}
+#gallery .g-heading::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: -50%;
+    right: 48%;
+    width: 52px;
+    height: 2px;
+    background-color: #49c0d0;
+}
+#gallery ul {
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
+}
+#gallery ul li {
+    padding-right: 20px;
+    display: inline;
+    font-size: 0.7em;
+}
+#gallery .grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,362px);
+    grid-gap: 30px;
+    padding-bottom: 70px;
+}
+#gallery .grid-container .row {
+    max-height: 272.8px;
+    position: relative;
+}
+#gallery .grid-container img {
+    width: 100%;
+    position: relative;
+}
+#gallery .grid-container .row:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+#gallery .grid-container .row:hover .g-top {
+    opacity: 1;
+    top: 17%;
+}
+#gallery .grid-container .row:hover .g-bottom {
+    opacity: 1;
+    bottom: 15%;
+}
+#gallery .grid-container .row:hover .line {
+    opacity: 1;
+    width: 120px;
+}
+#gallery .grid-container .overlay {
+    width: 362px;
+    height: 273.5px;
+    background-color: rgba(73,192,208,0.6);
+    position: absolute;
+    top: -0.5%;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s linear;
+    transform: scale(0.7);
+}
+#gallery .g-top {
+    position: absolute;
+    top: 27%;
+    left: 26%;
+    transition-delay: 4s;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+#gallery i {
+    display: block;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+#gallery .health {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+#gallery .nursing {
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+#gallery .line {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    opacity: 0;
+    transition-delay: 4.5s;
+    transition: all 0.3s linear;
+}
+#gallery .g-bottom {
+    position: absolute;
+    bottom: 25%;
+    left: 14%;
+    transition-delay: 4s;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+#gallery .hq {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: white;
+}

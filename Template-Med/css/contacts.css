@@ -1,0 +1,84 @@
+#contacts #c-info .container-fluid {
+    min-height: 300px;
+    padding: 70px 0;
+    background-color: #222;
+}
+#c-info .c-info-heading {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 900;
+    color: white;
+}
+#c-info .c-info-text {
+    display: block;
+    font-size: 0.9em;
+    padding-top: 15px;
+    color: white;
+}
+#c-info .col-3:nth-child(2) .c-info-heading {
+    padding: 0 0 20px 30px;
+} 
+#c-info  form {
+    padding-left: 30px;
+}
+#c-info form .i-text {
+    outline: none;
+    border:none;
+    width: 85%;
+    height: 35px;
+    margin-bottom: 10px;
+    text-indent: 60px;
+    background-color: black;
+}
+#c-info form .i-message {
+    outline: none;
+    border:none;
+    width: 85%;
+    height: 120px;
+    margin-bottom: 10px;
+    text-indent: 60px;
+    background-color: black;
+}
+#c-info input:nth-child(4) {
+    outline: none;
+    border:none;
+    display: block;
+    margin-top: 10px;
+    padding: 15px 25px;
+    background-color: #49c0d0;
+    color: white;
+}
+#c-info .c-info-author {
+    display: block;
+    padding-top: 20px;
+    font-size: 0.9em;
+    font-style: italic;
+    color: rgb(141, 138, 138);
+}
+#c-info .c-info-c {
+    display: block;
+    font-size: 0.9em;
+    padding-top: 15px;
+    color: rgb(141, 138, 138);
+}
+#contacts #c-footer .container-fluid {
+    max-height: 100px;
+    padding: 30px 0;
+    background-color: black;
+}
+#c-footer .row {
+    position: relative;
+}
+#c-footer .c-footer-text {
+    display: block;
+    font-size: 0.9em;
+    color: rgb(141, 138, 138);
+}
+#c-footer .c-footer-icons {
+    position: absolute;
+    right: 0;
+    color: white;
+}
+#c-footer i {
+    padding-right: 20px;
+}
